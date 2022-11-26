@@ -36,7 +36,7 @@ export class PointComponent implements OnInit {
     }
   }
   getColor(b: boolean) {
-    return b === true ? 'greean' : 'red';
+    return b === true ? 'green' : 'red';
   }
   constructor() {}
   ngOnInit(): void {}
