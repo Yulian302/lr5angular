@@ -8,7 +8,7 @@
   margin-right: 5%;
   font-family: 'Spectral', serif;
   color: #232222;
-  font-size: 20xp;
+  font-size: 20px;
   font-weight: bold;
 }
 fieldset {
@@ -30,4 +30,23 @@ input:invalid {
 }
 .input_r {
   width: 80%;
+}
+button {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgb(214, 105, 32);
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-color: purple;
+  border: 1px solid black;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.15s ease-in-out;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

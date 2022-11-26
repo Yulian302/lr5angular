@@ -5,29 +5,53 @@
       <legend>Значення X</legend>
       <label
         >Xn=
-        <input type="number" required value="-3" #Xn/>
+        <input type="number" required value="-3" #Xn />
       </label>
-      <label>Xk=
-        <input type="number" required value="3" #Xk>
+      <label
+        >Xk=
+        <input type="number" required value="3" #Xk />
       </label>
-      <label>Xh=
-      <input type="number" required value="1" #Xh />
+      <label
+        >Xh=
+        <input type="number" required value="1" #Xh />
+      </label>
     </fieldset>
-    <fieldset><legend>Значення Y</legend>
-    <label>Yn=
-    <input type="number" required value="-3" #Yn>
-    </label>
-    <label>Yk=
-    <input type="number" required value="3" #Yk>
-    </label>
-    <label>Yh=
-    <input type="number" required value="1" #Yh>
-    </label>
+    <fieldset>
+      <legend>Значення Y</legend>
+      <label
+        >Yn=
+        <input type="number" required value="-3" #Yn />
+      </label>
+      <label
+        >Yk=
+        <input type="number" required value="3" #Yk />
+      </label>
+      <label
+        >Yh=
+        <input type="number" required value="1" #Yh />
+      </label>
     </fieldset>
-    <fieldset><legend>Значення R</legend>
-    <label>R=
-    <input class="input_r" type="number" required value="3" min="1" #R>
-    </label>
+    <fieldset>
+      <legend>Значення R</legend>
+      <label
+        >R=
+        <input class="input_r" type="number" required value="3" min="1" #R />
+      </label>
     </fieldset>
   </form>
+  <button
+    (click)="
+      setAll(
+        Xn.value,
+        Xk.value,
+        Xh.value,
+        Yn.value,
+        Yk.value,
+        Yh.value,
+        R.value
+      )
+    "
+  >
+    <h3>Розрахунок</h3>
+  </button>
 </article>

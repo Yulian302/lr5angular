@@ -3,7 +3,7 @@ import { PointList } from './class/pointList';
 @Component({
   selector: 'app-point',
   templateUrl: './point.component.html',
-  styleUrls: ['./point/component.css'],
+  styleUrls: ['./point.component.css'],
 })
 export class PointComponent implements OnInit {
   p: PointList = new PointList();
