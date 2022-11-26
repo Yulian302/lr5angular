@@ -1,0 +1,33 @@
+@import url(../app.component.css);
+.form {
+  background-color: rgba(27, 67, 50, 0.5);
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+  width: 80%;
+  margin-right: 5%;
+  font-family: 'Spectral', serif;
+  color: #232222;
+  font-size: 20xp;
+  font-weight: bold;
+}
+fieldset {
+  width: 100%;
+}
+input {
+  border: none;
+  background: transparent;
+  width: 25%;
+  height: 45px;
+  outline: none;
+  border-bottom: 1px solid #b7e4c7ff;
+  font-family: 'Spectral', serif;
+  color: #232222;
+  font-weight: bold;
+}
+input:invalid {
+  border-bottom: 1px dashed red;
+}
+.input_r {
+  width: 80%;
+}
