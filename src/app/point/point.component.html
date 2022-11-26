@@ -54,4 +54,13 @@
   >
     <h3>Розрахунок</h3>
   </button>
+  <div class="flex-row">
+    <div
+      class="card"
+      *ngFor="let pp of p.p"
+      [ngStyle]="{ backgroundColor: getColor(pp.belong) }"
+    >
+      <p>X={{ pp.x }} Y={{ pp.y }}</p>
+    </div>
+  </div>
 </article>
